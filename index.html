@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="chessboard.css" />
+  <body>
+    <div class="board">
+      <div class="oddfiles">
+        <div class="square">
+          <img
+            src="Images/black_rook.svg"
+            id="a8"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/black_pawn.svg"
+            id="a7"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="a6"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="a5"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="a4"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="a3"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_pawn.svg"
+            id="a2"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_rook.svg"
+            id="a1"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+      </div>
+      <div class="evenfiles">
+        <div class="square">
+          <img
+            src="Images/black_knight.svg"
+            id="b8"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/black_pawn.svg"
+            id="b7"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="b6"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="b5"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="b4"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="b3"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_pawn.svg"
+            id="b2"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_knight.svg"
+            id="b1"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+      </div>
+      <div class="oddfiles">
+        <div class="square">
+          <img
+            src="Images/black_bishop.svg"
+            id="c8"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/black_pawn.svg"
+            id="c7"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="c6"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="c5"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="c4"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="c3"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_pawn.svg"
+            id="c2"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_bishop.svg"
+            id="c1"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+      </div>
+      <div class="evenfiles">
+        <div class="square">
+          <img
+            src="Images/black_queen.svg"
+            id="d8"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/black_pawn.svg"
+            id="d7"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="d6"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="d5"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="d4"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="d3"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_pawn.svg"
+            id="d2"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_queen.svg"
+            id="d1"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+      </div>
+      <div class="oddfiles">
+        <div class="square">
+          <img
+            src="Images/black_king.svg"
+            id="e8"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/black_pawn.svg"
+            id="e7"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="e6"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="e5"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="e4"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="e3"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_pawn.svg"
+            id="e2"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_king.svg"
+            id="e1"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+      </div>
+      <div class="evenfiles">
+        <div class="square">
+          <img
+            src="Images/black_bishop.svg"
+            id="f8"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/black_pawn.svg"
+            id="f7"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="f6"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="f5"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="f4"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="f3"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_pawn.svg"
+            id="f2"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_bishop.svg"
+            id="f1"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+      </div>
+      <div class="oddfiles">
+        <div class="square">
+          <img
+            src="Images/black_knight.svg"
+            id="g8"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/black_pawn.svg"
+            id="g7"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="g6"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="g5"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="g4"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="g3"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_pawn.svg"
+            id="g2"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_knight.svg"
+            id="g1"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+      </div>
+      <div class="evenfiles">
+        <div class="square">
+          <img
+            src="Images/black_rook.svg"
+            id="h8"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/black_pawn.svg"
+            id="h7"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="h6"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="h5"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="h4"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/square_image.png"
+            id="h3"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_pawn.svg"
+            id="h2"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+        <div class="square">
+          <img
+            src="Images/white_rook.svg"
+            id="h1"
+            onclick="inputCoordinate(this.id)"
+          />
+        </div>
+      </div>
+      <!--file-->
+    </div>
+    <!--board-->
+    <div id="gamereport">
+      <img
+        id="report"
+        onclick="printGameReport()"
+        src="images/GameReport.png"
+      />
+    </div>
+
+    <script src="chessboard.js"></script>
+  </body>
+</html>
