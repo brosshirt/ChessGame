@@ -1,6 +1,6 @@
 # ChessGame
 
-Playable Chess Game
+Playable Chess Game. Offers ability to print a game report to the console. 
 
 To-Dos
 - Change color of piece when clicked so that it's clearer the player clicked on them
